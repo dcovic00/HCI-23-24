@@ -1,3 +1,4 @@
+"use client"
 import {  games } from "../assetsList";
 import styles from './gameId.module.css';
 import Image, { StaticImageData } from "next/image";
