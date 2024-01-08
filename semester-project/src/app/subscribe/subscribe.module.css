@@ -1,0 +1,147 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    padding-bottom: 10px;
+
+    background: url("../../../public/images/Subscribe.jpg");
+    background-blend-mode:color;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+
+  }
+  
+
+
+
+
+
+
+
+.discoverFrame2 {
+    background-color:rgba(255, 255, 255, 0.7);
+    display:inline;
+    
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    column-gap: 10px;
+}
+
+
+.discoverFrame2 .discover {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:start;
+    row-gap: 0px;
+    margin: 2%;
+    height: auto;
+    width: 100%;
+    rotate: 0deg;
+
+
+    margin-bottom: 0%;
+    
+
+}
+
+.discoverFrame2:hover {
+    background-color: rgba(255, 255, 255, 0.80); /* Change color to white on hover */
+    transform: scale(1.02); /* Increase in size on hover */
+    transition: background-color 0.5s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
+
+
+
+.discoverFrame2 .discover .discoverTitle {
+    font-size: 4vw;
+    font-weight: bolder;
+    color: black;
+    rotate: 0;
+}
+
+.discoverFrame2 .discover .discoverText {
+    
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: black
+}
+
+
+
+
+.discoverFrame3 {
+    background-color:rgba(0, 0, 0, 0.8);
+    display:inline;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 100%;
+    padding: 1%;
+    column-gap: 0;
+}
+
+.discoverFrame3:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Change color to white on hover */
+    transform: scale(1.01); /* Increase in size on hover */
+    transition: background-color 0.5s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
+.discoverFrame3 .discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 0px;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.discoverFrame3 .discover .discoverTitle {
+    font-size: 4vw;
+    font-weight: bolder;
+    color: var(--primary-light-color);
+}
+
+.discoverFrame3 .discover .discoverText {
+    
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: var(--primary-light-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.discoverFrame6Pair {
+    display:flex;
+    flex-direction: column;
+    row-gap: 2em;
+    align-items: center;
+    justify-content:center;
+
+
+
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%; /* Adjust as needed for spacing between pairs */
+}
+
+.discoverFrame6Pair .discoverFrame2 {
+    width: 80%; /* Adjust as needed for spacing between pairs */
+}

@@ -1,0 +1,193 @@
+.main {
+    display: grid;
+    grid-template-columns: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background: url("../../public/images/Home.jpg");
+    background-blend-mode:color-burn;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+
+.landingFrame1 {
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    height: 100vh;
+     display:fle;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    text-transform: uppercase;
+    background-image: url(../../public/images/Home.jpg);
+
+    position: relative;
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+.landingFrame1 .sloganContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    text-align: center;
+}
+  
+.landingFrame1 .slogan {
+    /*color: var(--primary-light-color);
+    font-size: 4vw;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-top: 0.5vw;*/
+
+    color: var(--primary-light-color);
+    font-size: 3.5vw;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+@media (max-width: 768px) {
+    .landingFrame1 {
+        height: 40vh;
+    }
+
+    .landingFrame1 .sloganContainer {
+        padding-top: 30px;
+        row-gap: 20px;
+        width: 60%;
+    }
+
+    .landingFrame1 .slogan  {
+        font-size: 4.5vw;
+    }
+}
+  
+.btn {
+    background-color: var(--primary-dark-color);
+    color: var(--primary-light-color);
+    border-radius: 5vw;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+    font-size: 1.7vw;
+}
+
+.btn:hover {
+    background-color: var(--secondary-light-color);
+    color: var(--primary-dark-color);
+    cursor: pointer;
+}
+
+/* Frame 2 : Discover*/
+
+.discoverFrame2 {
+    background-color:rgba(1.0,1.0,1.0,0.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    padding: 30px;
+    column-gap: 20px;
+}
+
+.discoverFrame2 .discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+    margin: 10%;
+    width: 80%;
+}
+
+.discoverFrame2 .discover .discoverTitle {
+    font-size: 6vw;
+    font-weight: bolder;
+
+    color: white;
+   
+}
+
+.discoverFrame2 .discover .discoverText {
+    
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+   
+}
+
+.discoverFrame2 .discover .btn {
+    margin-top: 15px;
+}
+
+.active {
+    background-color: var(--primary-dark-color);
+}
+
+.heroDestinations {
+    padding: 5em 5em 5em 5em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .discoverFrame2 {
+        grid-template-columns: 100%;
+        height: fit-content;
+        justify-items: center;
+        row-gap: 4vw;
+    }
+
+    .discoverFrame2 .discover {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    
+    .discoverFrame2 .discover .discoverTitle {
+        font-size: 7vw;
+        outline: black;
+    }
+
+    .discoverFrame2 .discover .discoverText {
+        text-align: center;
+        font-size: 4vw;
+        outline: black;
+    }
+
+    .discoverFrame2 .heroDestinations {
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0 0 0 0;
+    }
+
+    .btn {
+        font-size: 3vw;
+    }
+}
+
+.Frame3 {
+    background-color:rgba(255, 255, 255, 0);
+    height:auto;
+    padding: 0vw 0vw 0vw 1vw;
+}
+
+.blogsFrame{
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
