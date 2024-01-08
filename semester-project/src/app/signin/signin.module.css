@@ -1,0 +1,163 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2%;
+    padding-bottom: 5%;
+    
+
+    background: url("../../../public/images/SignIn.jpg");
+    background-blend-mode:light;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+
+}
+  
+.loginBox {
+    height: 350px;
+    width: 350px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #3939399a;
+    text-align: center;
+}
+  
+.loginBox h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 15%;
+    margin-bottom: 25%;
+    color: var(--primary-dark-color);
+}
+  
+.loginBox form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+    margin-bottom: 25px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.loginBox button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bababa;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.loginBoxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+    
+    background-blend-mode: color;
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Prevent background overflow */
+}
+
+
+
+
+.buttonContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .loginBox {
+        height: 260px;
+    }
+
+    .loginBox h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .buttonContainer {
+        margin-top: 30px;
+    }
+
+    .loginBox input[type="password"] {
+        margin-bottom: 5px;
+
+    }
+}
+
+
+
+
+.discoverFrame3 {
+    background-color:rgba(0, 0, 0, 0.8);
+    display:inline;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 100%;
+    padding: 1%;
+    column-gap: 0;
+}
+
+.discoverFrame3:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Change color to white on hover */
+    transform: scale(1.01); /* Increase in size on hover */
+    transition: background-color 0.5s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
+.discoverFrame3 .discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 0px;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.discoverFrame3 .discover .discoverTitle {
+    font-size: 4vw;
+    font-weight: bolder;
+    color: var(--primary-light-color);
+}
+
+.discoverFrame3 .discover .discoverText {
+    
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: var(--primary-light-color);
+}
