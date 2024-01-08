@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import contentfulService, { GameListItem } from "../../../../lib/contentfulClient";
 import Link from "next/link";
-import styles from './games.module.css';
+import styles from './gameId.module.css';
 import { TypeCategory, categories } from "../gamesList";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import Image from "next/image";
